@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #2b2b2b;
+  background: #fafafa;
+  line-height: 1.5;
+}
+
+header {
+  background: #1f3a5f;
+  color: #fff;
+  padding: 18px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 0.95rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.call-link {
+  background: #ffb703;
+  color: #1f3a5f;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 0 60px;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 16px;
+  color: #1f3a5f;
+}
+
+.hero p {
+  color: #555;
+  margin-bottom: 28px;
+  font-size: 1.05rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: #1f3a5f;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #16283f;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  padding: 32px;
+  margin-top: 24px;
+}
+
+h2 {
+  color: #1f3a5f;
+  margin-bottom: 16px;
+}
+
+.field {
+  margin-bottom: 18px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.field textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.product-details p {
+  color: #666;
+  margin-top: 6px;
+}
+
+.price {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1f3a5f;
+}
+
+.confirmation-box {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.confirmation-box .checkmark {
+  font-size: 3rem;
+  color: #2a9d8f;
+  margin-bottom: 16px;
+}
+
+.order-details {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  padding: 24px;
+  margin-top: 24px;
+  text-align: left;
+}
+
+.order-details dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px 16px;
+}
+
+.order-details dt {
+  color: #777;
+}
+
+.order-details dd {
+  font-weight: 600;
+}
+
+footer {
+  text-align: center;
+  padding: 32px 24px;
+  color: #999;
+  font-size: 0.85rem;
+}
